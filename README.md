@@ -1,2 +1,2 @@
-# platform
+# Platform
 Informfully - Platform
