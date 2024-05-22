@@ -1,11 +1,12 @@
-# Platform
-Informfully - Platform
+# Informfully Platform
 
-Welcome to the [Informfully](https://informfully.ch/)!
+![Informfully](https://informfully.readthedocs.io/en/latest/_images/logo_banner.png)
 
-To view the documentation, please visit [Informfully at Read the Docs](https://informfully.readthedocs.io/). It it the combined and official Informfully Documentation for all [code repositories](https://github.com/orgs/Informfully/repositories).
+Welcome to the [Informfully](https://informfully.ch/)! Informfully is a open-source reproducibility platform for content distribution and user experiments from the [University of Zurich](https://www.ifi.uzh.ch/en.html).
 
-You can access the [Installation Instructions here](https://informfully.readthedocs.io/en/latest/install.html).
+To view the documentation, please visit [Informfully at Read the Docs](https://informfully.readthedocs.io/). It is the combined and official Informfully Documentation for all [code repositories](https://github.com/orgs/Informfully/repositories).
+
+You can directly access the [Quick Start Guide here](https://informfully.readthedocs.io/en/latest/quick.html).
 
 ## Citation
 If you use any Informfully code/repository in a scientific publication, we ask you to cite the following papers:
@@ -46,3 +47,5 @@ Please post your feature requests and bug reports in our [GitHub issues](https:/
 
 ## License
 Released under the [MIT License](LICENSE). (Please note that the respective copyright licenses of third-party libraries and dependencies apply.)
+
+![Screenshots](https://informfully.readthedocs.io/en/latest/_images/app_screens.png)
