@@ -1,0 +1,95 @@
+.modal-survey-edit {
+
+	&__body {
+		width: 100%;
+		margin: 0 auto;
+
+		@include tablet {
+			width: 80%;
+		}
+
+		@include desktop {
+			width: 740px;
+		}
+	}
+
+	.question {
+		padding: 2.5rem;
+		border-radius: 4px;
+
+		&:hover,
+		&--is-focused {
+			background: $grey-lighter;
+
+			.badge {
+				background-color: $color-primary;
+			}
+		}
+
+		&__button {
+			color: $text-muted;
+			font-size: 1rem;
+			padding: 12px 4px;
+			text-align: center;
+
+			&:hover {
+				color: $color-text;
+			}
+
+			&--delete:hover {
+				color: $color-error;
+			}
+		}
+
+		&__button--add-answer {
+			color: $color-text-light;
+			padding: 12px 4px;
+
+			&:hover {
+				color: darken($color-text, 10%);
+
+				.icon {
+					background-color: darken($color-text, 10%);
+				}
+			}
+
+			.icon {
+				background-color: $color-text-light;
+				color: $white;
+				width: 1.5rem;
+				height: 1.5rem;
+				font-size: 12px;
+				margin-bottom: -7px;
+			}
+		}
+
+		.answer {
+			&__button--remove {
+				color: $text-muted;
+				font-size: 1rem;
+				padding: 12px 4px;
+				text-align: center;
+
+				&:hover {
+					color: $color-error;
+				}
+			}
+		}
+
+		&__settings-area {
+
+			margin-top: 0.5rem;
+			padding-top: 0.5rem;
+			border-top: 1px solid $text-muted;
+
+			&__title {
+				text-transform: uppercase;
+				font-size: 1.25rem;
+			}
+
+			label {
+				padding-top: 7px;
+			}
+		}
+	}
+}

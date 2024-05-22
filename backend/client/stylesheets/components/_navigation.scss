@@ -1,0 +1,40 @@
+.navbar {
+	position: fixed;
+	width: 100%;
+	background-color: $black;
+	height: $navbar-height;
+	
+	.navbar-burger {
+		height: auto;
+		color: $white;
+	}
+
+	.navbar-menu {
+		background-color: $black;
+
+		.navbar-item {
+			color: $white;
+
+			&:hover, &:focus, &.is-selected {
+				background-color: $light-black;
+			}
+
+			&.is-disabled {
+				color: $light-black;
+				background-color: $black;
+			}
+			
+		}
+
+		.navbar-vertical-divider {
+			background-color: #343E4C;
+			width: 2px;
+			height: auto;
+			margin: 10px;
+		}
+
+		.navbar-experiment-banner {
+			color: $white;
+		}
+	}
+}

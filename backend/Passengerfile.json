@@ -1,0 +1,10 @@
+{
+    "port": 8080,
+    "environment": "production",
+    "startup_file": "bundle/main.js",
+    "app_type": "node",
+    "envvars": {
+        "MONGO_URL": "mongodb://localhost:27017/newsapp2020",
+        "ROOT_URL": "http://localhost:8080"
+    }
+}

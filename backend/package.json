@@ -1,0 +1,48 @@
+{
+  "name": "uzh-news-app-backend",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-full": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha --port 3100",
+    "test-watch": "TEST_WATCH=1 meteor test --port 3100 --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.10",
+    "bcrypt": "^5.0.1",
+    "bulma": "^0.9.1",
+    "chai": "^4.2.0",
+    "images": "^3.2.3",
+    "immutability-helper": "^2.9.1",
+    "meteor-node-stubs": "^0.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^18.1.0",
+    "react-addons-update": "^15.6.3",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-mounter": "^1.2.0",
+    "react-router-dom": "^6.14.2",
+    "react-select": "^2.4.2",
+    "react-transition-group": "^2.9.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    }
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-meteor": "^0.4.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-meteor": "^5.1.0",
+    "eslint-plugin-react": "^7.12.4",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  }
+}

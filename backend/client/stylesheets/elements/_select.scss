@@ -1,0 +1,56 @@
+$border-color: $grey-light;
+$border-color-hover: $grey;
+$input-disabled-background-color: $grey-lighter;
+$label-font-size: $font-size-normal;
+$label-font-weight: $font-weight-bold;
+$label-text-color: $color-text;
+
+textarea,
+select {
+    border: 1px solid $border-color;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+	padding: 0.75rem 1rem;
+	width: 100%;
+
+	&:focus {
+		outline: none;
+		border: 1px solid $border-color-hover;
+	}
+
+	&:disabled {
+		background-color: $input-disabled-background-color;
+
+		&:hover {
+			cursor: not-allowed;
+		}
+	}
+
+	&.input--transparent {
+		background: transparent;
+		border: none;
+		padding-left: 0;
+		padding-top: 0.5rem;
+
+		&::placeholder {
+			color: $text-muted;
+			font-weight: 400;
+		}
+	}
+}
+
+[contenteditable=true]:empty:before {
+    color: red;
+    content: attr(placeholder);
+    display: block; /* For Firefox */
+    font-weight: 400;
+    color: rgba(27,58,108,.22);
+}
+
+label {
+	color: $label-text-color;
+	font-size: $label-font-size;
+	font-weight: $label-font-weight;
+	margin-bottom: 0.5rem;
+	display: inline-block;
+}

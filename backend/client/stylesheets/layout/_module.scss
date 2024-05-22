@@ -1,0 +1,52 @@
+.module {
+	&-section {
+		padding: 1rem;
+		background: red;
+
+		@include desktop {
+			padding: 1.875rem;
+
+			&:first-child {
+				padding-bottom: 1rem;
+			}
+		}
+
+		&--between {
+			color: blue;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+		&-content {
+			padding: 1rem;
+
+			@include desktop {
+				padding: 1.875rem;
+			}
+		}
+
+		&--boxed {
+			padding: 1rem 0;
+
+			@include desktop {
+				padding: 1.875rem 0;
+			}
+		}
+
+		&-card {
+			background:white;
+			border-radius:4px;
+			position:relative;
+
+			&--0 {
+				box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+			}
+		}
+	}
+
+	&-title {
+		text-align: left;
+		width: 100%;
+		margin-bottom: 0;
+	}
+}

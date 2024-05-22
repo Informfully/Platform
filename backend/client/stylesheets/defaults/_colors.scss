@@ -1,0 +1,30 @@
+$primary: #343E4C;
+$text: #222831;
+$text-muted: #929AAB;
+$error: red;
+
+$black: #222831;
+$light-black: #2c3340;
+
+$grey: #b0bbca;
+$grey-light: #d8e0e6;
+$grey-lighter: lighten($grey-light, 10%);
+
+$white: hsl(0, 0%, 100%);
+
+$blue: #18348D;
+$blue-light: rgba(59, 153, 240, 0.44);
+$blue-lighter: rgba(59, 153, 240, 0.24);
+$blue-dark: #238dee;
+
+$green: #26C281;
+
+$red: rgb(235, 77, 97);
+
+$color-primary: $primary;
+$color-error: $red;
+$color-success: $green;
+$color-body-background: rgb(245, 246, 250);
+
+$color-text: $text;
+$color-text-light: $text-muted;

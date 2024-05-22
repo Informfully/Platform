@@ -1,0 +1,9 @@
+.public-form-container {
+	padding: 0 1.5rem;
+	margin: 0 auto;
+	width: 600px;
+
+	@include tablet {
+		padding: 3rem;
+	}
+}

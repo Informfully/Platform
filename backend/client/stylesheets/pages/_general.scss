@@ -1,0 +1,36 @@
+.page-public {
+	background: white;
+}
+
+.page-document {
+	padding: 2rem;
+	width: 100%;
+
+	@include tablet {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	@include desktop {
+		width: $desktop;
+	}
+
+	.document {
+		&__head {
+			text-align: center;
+			font-size: 2.2rem;
+			font-weight: bold;
+			margin-bottom: 3rem;
+		}
+
+		&__body {
+			h2 {
+				margin-bottom: 0.8rem;
+			}
+
+			p {
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}

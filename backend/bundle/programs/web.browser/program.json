@@ -1,0 +1,246 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "9f44586ca2db03ad1f9a5acad11fd169472365bd.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/9f44586ca2db03ad1f9a5acad11fd169472365bd.js?meteor_js_resource=true",
+      "replaceable": false,
+      "size": 1934643,
+      "hash": "9f44586ca2db03ad1f9a5acad11fd169472365bd",
+      "sri": "glx2CwXW6Y+QgqHUXvFEMH14Cedu2UI7esVQE65WZ+GxKSg3h8zcor4QImsVAl/CIHT4NdB9s/GXLi5+op+y6Q=="
+    },
+    {
+      "path": "9f44586ca2db03ad1f9a5acad11fd169472365bd.stats.json",
+      "where": "client",
+      "type": "json",
+      "cacheable": true,
+      "url": "/9f44586ca2db03ad1f9a5acad11fd169472365bd.stats.json?meteor_js_resource=true",
+      "size": 30609,
+      "hash": "9d9d19c2a185fd11fd70f8b4ca5604f26489fa28",
+      "sri": "iilShol1nGQ0lAjn1FAOHwkZNa22qQWMeihYENav0IZ0WLnZ98D7xIjZ7ZW89UTmKVUWajuPBVWTyTgfHrSoAg=="
+    },
+    {
+      "path": "5494d4873ea8bfde1d50ab6c2ae58e78497cf1ef.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/5494d4873ea8bfde1d50ab6c2ae58e78497cf1ef.css?meteor_css_resource=true",
+      "size": 222096,
+      "hash": "5494d4873ea8bfde1d50ab6c2ae58e78497cf1ef",
+      "sri": "VWSmZo6zIA6SXx8YXgafPQbxRRhSEoVN+bDLIvKuWMmwUtJKYY8WRVP6gL5cWowTgH1FB4XRV9fSbG04qPeVWA=="
+    },
+    {
+      "path": "app/images/aas.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/aas.png",
+      "size": 45506,
+      "hash": "3ac1c44f4ccb5e91e48d653123292ff45e846dec",
+      "sri": null
+    },
+    {
+      "path": "app/images/gogp.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/gogp.png",
+      "size": 17666,
+      "hash": "38f39a0eaacbd1b6c623a75885a21a1e647974b8",
+      "sri": null
+    },
+    {
+      "path": "app/images/logo_1024.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/images/logo_1024.png",
+      "size": 187814,
+      "hash": "ea5d739a08daccff278e6832697fc3dbe527ca94",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/LICENSE.txt",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/LICENSE.txt",
+      "size": 11560,
+      "hash": "d172fe09e63e7b4f1c5f92d7d1e9a8430e3bf6fe",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-Black.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-Black.ttf",
+      "size": 171480,
+      "hash": "0544d6d75c700e770956c323ac271a60cd612314",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-BlackItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-BlackItalic.ttf",
+      "size": 177552,
+      "hash": "c90f9af97d1e0eb10dcb1f7ee947477b3a9c27e5",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-Bold.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-Bold.ttf",
+      "size": 170760,
+      "hash": "ccbf171329556dc36edf0a9553e01622ed9d2a51",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-BoldItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-BoldItalic.ttf",
+      "size": 174952,
+      "hash": "360207e427c17a1108000c6d2b802cf119d730c7",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-Italic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-Italic.ttf",
+      "size": 173932,
+      "hash": "ad25f9dc460941b0a5ab429c589c9177ff3a33f5",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-Light.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-Light.ttf",
+      "size": 170420,
+      "hash": "260298fb473aed5d7df4b292156d559dbad45654",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-LightItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-LightItalic.ttf",
+      "size": 176616,
+      "hash": "7a44c55def569784e6dbd22f0f79bb97f9a7c5b2",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-Medium.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-Medium.ttf",
+      "size": 172064,
+      "hash": "7971cba4ac9e356bff8a44ff10b53fcf62fb3268",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-MediumItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-MediumItalic.ttf",
+      "size": 176864,
+      "hash": "7216b2a6f140672235e5c199d4604e49030cab3a",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-Regular.ttf",
+      "size": 171676,
+      "hash": "d8cba8d43350e29cb228468f092576214c840378",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-Thin.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-Thin.ttf",
+      "size": 171904,
+      "hash": "4090131f68a20ec2e5415b90f2bfc73101755843",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto/Roboto-ThinItalic.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto/Roboto-ThinItalic.ttf",
+      "size": 176300,
+      "hash": "05afb03e1a5b430cf89ccd15f3c4cdda06389f10",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto_Slab/LICENSE.txt",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto_Slab/LICENSE.txt",
+      "size": 11560,
+      "hash": "d172fe09e63e7b4f1c5f92d7d1e9a8430e3bf6fe",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto_Slab/RobotoSlab-Bold.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto_Slab/RobotoSlab-Bold.ttf",
+      "size": 170616,
+      "hash": "1c7510c4ac0b75c021be0d6f0b07ec02b740e809",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto_Slab/RobotoSlab-Light.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto_Slab/RobotoSlab-Light.ttf",
+      "size": 179096,
+      "hash": "30135686b540e5f5b9edbe24dd15ada623fbb4cd",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto_Slab/RobotoSlab-Regular.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto_Slab/RobotoSlab-Regular.ttf",
+      "size": 169064,
+      "hash": "4ea86c276b2510574f7a34db8c743c854b5134cf",
+      "sri": null
+    },
+    {
+      "path": "app/fonts/Roboto_Slab/RobotoSlab-Thin.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/fonts/Roboto_Slab/RobotoSlab-Thin.ttf",
+      "size": 181156,
+      "hash": "9382b20c01becbcb581b0c3ccdb996a7650c7959",
+      "sri": null
+    }
+  ]
+}

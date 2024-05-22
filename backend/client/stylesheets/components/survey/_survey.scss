@@ -1,0 +1,64 @@
+$survey-selected-box-shadow-color: lighten($color-primary, 30%);
+$survey-selected-background: $color-primary;
+$survey-selected-color: white;
+$survey-selected-hover-color: white;
+
+.surveyPreview {
+
+	padding: 1rem;
+
+	&--selected {
+		box-shadow: 0 3px 12px $survey-selected-box-shadow-color;
+		background: $survey-selected-background;
+		color: $survey-selected-color;
+
+		.button {
+			color: $survey-selected-hover-color;
+		}
+	}
+
+
+	&-item {
+		display: block;
+		color: $color-text;
+
+		&:not(:first-child) {
+			margin-top: 0.5rem;
+		}
+
+		&--icon {
+			font-size: $experiment-icon-font-size;
+			font-weight: $experiment-icon-font-weight;
+		}
+
+		&-icon {
+			width: 1rem;
+			text-align: center;
+			display: inline-block;
+			margin-right: 0.5rem;
+			color: $experiment-icon-color;
+		}
+
+		&-delete {
+			position: absolute;
+			right: 0.25rem;
+			bottom: 0.25rem;
+			text-align: center;
+
+			.button {
+				color: $experiment-delete-icon-color;
+				font-size: $experiment-icon-font-size;
+				font-weight: $experiment-icon-font-weight;
+				padding: 0.7rem;
+
+				.icon {
+					margin: 0;
+				}
+
+				&:hover {
+					color: $experiment-delete-icon-color-hover;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "name": "Informfully",
+    "slug": "Informfully",
+    "version": "3.1.3",
+    "icon": "./assets/logo_1024.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "package": "ch.uzh.ifi.news",
+      "versionCode": 28,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_1024_android_adaptive_foreground.png",
+        "monoChromeImage": "./assets/logo_1024_android_adaptive_monochrome.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "ch.uzh.ifi.ddis-news",
+      "config": { "usesNonExemptEncryption": false }
+    },
+    "updates": {
+      "enabled": false
+    },
+    "plugins": [
+    [
+      "expo-build-properties",
+      {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 33
+          },
+          "ios": {
+            "deploymentTarget": "15.0"
+          }
+      }
+    ]
+    ]
+  }
+}

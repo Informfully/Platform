@@ -1,0 +1,206 @@
+$button-color: $white;
+$button-background-color: $color-primary;
+$button-background-color-hover: darken($button-background-color, 10%);
+$button-box-shadow-color: lighten($button-background-color, 30%);
+$button-border-radius: 4px;
+$button-font-weight: $font-weight-normal;
+$button-font-size: $font-size-small;
+
+$button-danger-color: $color-error;
+$button-danger-background-color: transparent;
+$button-danger-border-color: $button-danger-color;
+$button-danger-color-hover: $white;
+$button-danger-background-color-hover: $button-danger-color;
+$button-danger-box-shadow-color: lighten($button-danger-color, 30%);
+
+$button-success-color: $white;
+$button-success-background-color: $color-success;
+$button-success-border-color: $button-success-color;
+$button-success-color-hover: $white;
+$button-success-background-color-hover: darken($button-success-background-color, 5%);
+$button-success-box-shadow-color: lighten($button-success-color, 30%);
+
+$button-flat-background-color: transparent;
+$button-flat-color: $color-text;
+
+$button-link-color: $color-primary;
+$button-link-color-hover: darken($color-primary, 10%);
+
+.custom-button {
+	background-color: $button-background-color;
+	border-radius: $button-border-radius;
+	color: $button-color;
+	font-size: $button-font-size;
+	letter-spacing: .8px;
+	padding: 1rem 2rem;
+	text-align: center;
+	outline: 0;
+	text-transform: uppercase;
+	margin: 0 auto;
+	box-shadow: 0 3px 12px $button-box-shadow-color;
+	transition: box-shadow 300ms ease;
+	border: 1px solid $button-background-color;
+
+	&:hover {
+		//box-shadow: 0 7px 13px 0 rgba(27,58,108,.11), 0 3px 8px 0 rgba(27,58,108,.11);
+		color: $button-color;
+		background-color: $button-background-color-hover;
+		box-shadow: 0 4px 11px 5px $button-box-shadow-color;
+		border: 1px solid $button-background-color-hover;
+	}
+
+	&--danger {
+		color: $button-danger-color;
+		background-color: $button-danger-background-color;
+		border: 1px solid $button-danger-border-color;
+		box-shadow: none;
+
+		&:hover {
+			color: $button-danger-color-hover;
+			background-color: $button-danger-background-color-hover;
+			box-shadow:0 4px 11px 5px $button-danger-box-shadow-color;
+			border: 1px solid $button-danger-border-color;
+		}
+	}
+
+	&--success {
+		color: $button-success-color;
+		background-color: $button-success-background-color;
+		border: 1px solid $button-success-border-color;
+		box-shadow: none;
+
+		&:hover {
+			color: $button-success-color-hover;
+			background-color: $button-success-background-color-hover;
+			box-shadow:0 4px 11px 5px $button-success-box-shadow-color;
+			border: 1px solid $button-success-border-color;
+		}
+	}
+
+	&--flat {
+		background-color: transparent;
+		color: $button-flat-color;
+		border: none;
+		box-shadow: none;
+		min-width: 0;
+		padding: 0.5rem;
+
+		&:hover {
+			color: $button-flat-color;
+			background-color: transparent;
+			box-shadow: none;
+			border: none;
+		}
+	}
+
+	&--link {
+		padding: 0;
+		min-width: 0;
+		background-color: transparent;
+		color: $button-link-color;
+		border: none;
+		box-shadow: none;
+		text-transform: none;
+		letter-spacing: 1px;
+		font-size: 16px;
+		display: inline-block;
+
+		&:hover {
+			color: $button-link-color-hover;
+			background-color: transparent;
+			box-shadow: none;
+			border: none;
+		}
+	}
+
+	&-text {
+		background-color: transparent;
+		color: $button-background-color;
+		box-shadow: none;
+
+		&:hover {
+			color: $button-background-color;
+			box-shadow: none;
+			background-color: transparent;
+			font-weight: $font-weight-medium;
+		}
+	}
+
+	.symbol {
+		width: 20px;
+		height: 20px;
+		margin: 0 1rem 0 0;
+	}
+
+	&--icon-with-link {
+		padding: 0;
+		min-width: 0;
+		background-color: transparent;
+		color: $button-link-color;
+		border: none;
+		box-shadow: none;
+		text-transform: none;
+		letter-spacing: 1px;
+		font-size: 16px;
+		display: inline-block;
+
+		&:hover {
+			color: $button-link-color-hover;
+			background-color: transparent;
+			box-shadow: none;
+			border: none;
+
+			.symbol {
+				background-color: $button-link-color-hover;
+			}
+		}
+
+		.symbol {
+			background-color: $button-background-color;
+			border-radius: 50%;
+			color: $button-color;
+			//padding: 1rem;
+			width: 2.5rem;
+			height: 2.5rem;
+			position: relative;
+			display: inline-block;
+			margin-bottom: -14px;
+
+			svg {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+	}
+
+}
+
+.custom-button--grey--inverted {
+	background: transparent;
+	box-shadow: none;
+	min-width: 0;
+    color: $text-muted;
+    border: 1px solid $text-muted;
+	padding: 1rem 2rem;
+    border-radius: 4px;
+    font-weight: 400;
+
+    &:hover {
+		box-shadow: none;
+        color: white;
+        border: 1px solid $color-body-background;
+        background: $text-muted;
+        transition: 300ms ease all;
+    }
+}
+
+.card .custom-button--grey--inverted,
+.custom-modal .custom-button--grey--inverted {
+
+	&:hover {
+		border: 1px solid $white;
+	}
+}
+

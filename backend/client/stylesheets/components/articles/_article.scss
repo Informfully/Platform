@@ -1,0 +1,37 @@
+.modal-article {
+
+	.modal__head,
+	.modal__body,
+	.modal__foot {
+		width: 100%;
+		margin: 0 auto;
+
+		@include tablet {
+			width: 70%;
+		}
+
+		@include desktop {
+			width: 700px;
+		}
+	}
+
+	&__infotext {
+		color: $grey;
+	}
+
+	img {
+		margin-bottom: 2rem;
+		border-radius: 4px;
+	}
+
+	h2 {
+		font-size: 1.4rem;
+		margin-top: 3rem;
+	}
+
+	p {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		font-family: $font-family-serif;
+	}
+}

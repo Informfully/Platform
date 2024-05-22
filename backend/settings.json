@@ -1,0 +1,8 @@
+{
+  "mail": {
+    "username": "postmaster",
+    "password": "69ff13c7f306abe14637f9607edd70cb-059e099e-0bf9ae4c",
+    "server": "sandboxff09ae0751f24bc69c1f917514deb37e.mailgun.org",
+    "port": 25
+  }
+}

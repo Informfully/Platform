@@ -1,0 +1,24 @@
+$badge-font-size: $font-size-small;
+$badge-background-color: $color-text-light;
+$badge-text-color: $white;
+$badge-font-weight: $font-weight-bold;
+
+.badge {
+	font-size: $badge-font-size;
+	background-color: $badge-background-color;
+	display: inline-block;
+	//padding: 4px 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	font-weight: $badge-font-weight;
+	position: relative;
+	color: $badge-text-color;
+
+	&__content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}

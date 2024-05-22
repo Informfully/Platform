@@ -1,0 +1,64 @@
+.custom-modal {
+
+	.form-container {
+		width: 90%;
+		text-align: center;
+		position: relative;
+		margin: 0 auto;
+
+		@include tablet {
+			width: 40%;
+		}
+
+		&__row {
+			width: 100%;
+		}
+
+		.input,
+		textarea,
+		input[type='text'] {
+			width: calc(100% - 5rem);
+			border: none;
+			background: transparent;
+			text-align: center;
+			display: block;
+			float: left;
+			font-size: 2rem;
+			font-weight: 800;
+			margin: 0 auto;
+			color: $color-text;
+
+			&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+				font-weight: 400;
+				color: rgba(27,58,108,.22);
+				opacity: 1; /* Firefox */
+			}
+
+			&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+				font-weight: 400;
+				color: rgba(27,58,108,.22);
+			}
+
+			&::-ms-input-placeholder { /* Microsoft Edge */
+				font-weight: 400;
+				color: rgba(27,58,108,.22);
+			}
+		}
+
+		.icon-arrow {
+			font-size: 2rem;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			color: $color-text;
+
+			&:hover {
+				cursor: pointer;
+			}
+
+			&.disabled {
+				color: $text-muted;
+			}
+		}
+	}
+}

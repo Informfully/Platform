@@ -1,0 +1,12 @@
+$table-head-border-color: $grey-light;
+$table-head-font-weight: $font-weight-bold;
+
+.table {
+
+	&-head {
+		border-bottom: 1px solid $table-head-border-color;
+		font-weight: $table-head-font-weight;
+	}
+
+
+}

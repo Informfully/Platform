@@ -1,0 +1,26 @@
+$experiment-box-shadow-color: lighten($color-primary, 30%);
+
+$experiment-icon-font-weight: $font-weight-normal;
+$experiment-icon-font-size: $font-size-small;
+$experiment-icon-color: $color-text;
+$experiment-delete-icon-color: $text-muted;
+$experiment-delete-icon-color-hover: $color-error;
+
+.experiment {
+
+	.select-experiment {
+		height: 100%;
+		width: 100%;
+		padding: 1rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		background-color: lightgray;
+		border-radius: 4px;
+
+		&.selected {
+			background-color: $light-black;
+		}
+	}
+}
