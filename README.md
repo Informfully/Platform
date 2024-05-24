@@ -12,7 +12,7 @@ It is the combined documentation for all [code repositories](https://github.com/
 
 ## Installation
 
-The following installation instructions are an abbreviated version for quickly getting you set and ready. You can access full the [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
+The following installation instructions are an abbreviated version for quickly getting you set and ready. You can access the full [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
 
 ### Download the Code
 
