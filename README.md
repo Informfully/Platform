@@ -57,7 +57,7 @@ in a Terminal (with the current directory being the root of the back end repo):
 bash build.sh
 ```
 
-Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/development.html) and [Front End Deployment](https://informfully.readthedocs.io/en/latest/native.html) in the documentation.
+Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/deployment.html) and [Front End Deployment](https://informfully.readthedocs.io/en/latest/native.html) in the documentation.
 
 ## Citation
 If you use any Informfully code/repository in a scientific publication, we ask you to cite the following papers:
