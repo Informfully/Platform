@@ -2,11 +2,62 @@
 
 ![Informfully](https://informfully.readthedocs.io/en/latest/_images/logo_banner.png)
 
-Welcome to the [Informfully](https://informfully.ch/)! Informfully is a open-source reproducibility platform for content distribution and user experiments from the [University of Zurich](https://www.ifi.uzh.ch/en.html).
+Welcome to the [Informfully](https://informfully.ch/)!
+Informfully is a open-source reproducibility platform for content distribution and user experiments.
 
-To view the documentation, please visit [Informfully at Read the Docs](https://informfully.readthedocs.io/). It is the combined documentation for all [code repositories](https://github.com/orgs/Informfully/repositories).
+To view the full documentation, please visit [Informfully at Read the Docs](https://informfully.readthedocs.io/).
+It is the combined documentation for all [code repositories](https://github.com/orgs/Informfully/repositories).
 
-You can directly access the [Quick Start Guide here](https://informfully.readthedocs.io/en/latest/quick.html).
+**Links and Resources:** [Website](https://informfully.ch/) | [Documentation](https://informfully.readthedocs.io/) | [Informfully](https://github.com/orgs/Informfully/repositories) | [DDIS@UZH](https://www.ifi.uzh.ch/en/ddis.html)
+
+## Installation
+
+The following installation instructions are an abbreviated version for quickly getting you set and ready. You can access full the [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
+
+### Download the Code
+
+Informfully is a React Native app that uses a Meteor servers as back end. Download the code and Meteor as follows:
+
+```bash
+# Download the source code
+git clone https://github.com/Informfully/Platform.git
+
+# Install all packages
+cd backend
+meteor npm install
+```
+Find more on [Installation Instructions](https://informfully.readthedocs.io/en/latest/install.html) in the documentation.
+
+### Run the Code
+
+Make sure that you are specifying the same port that you are using in the [React Native App](https://github.com/Informfully/Platform/blob/main/frontend/App.js). You can then start the server with:
+
+```bash
+# To run the server on port 3008
+# Settings configured for the development environment...
+./meteor-start.sh
+
+# ...and...
+bash meteor-start.sh
+
+# ...or by specifying --port directly to run the server with
+meteor --port 3008 --settings settings-dev.json
+```
+
+Find more on [Local Development](https://informfully.readthedocs.io/en/latest/development.html) in the documentation.
+
+### Deploy the Code
+
+For your convenience, we have created a script that automatically deploys the back end to the server.
+To run it, simply execute the following
+in a Terminal (with the current directory being the root of the back end repo):
+
+```bash
+# Deploy back end on the server
+bash build.sh
+```
+
+Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/development.html) and [Front End Deployment](https://informfully.readthedocs.io/en/latest/native.html) in the documentation.
 
 ## Citation
 If you use any Informfully code/repository in a scientific publication, we ask you to cite the following papers:
@@ -38,7 +89,7 @@ If you use any Informfully code/repository in a scientific publication, we ask y
   }
   ```
 
-## Support
+## Contributing
 Your are welcome to contribute to the Informfully ecosystem and become a part of your cummunity. Feel free to:
   - fork any of the [Informfully repositories](https://github.com/Informfully/Documentation) and
   - make changes and create pull requests.
