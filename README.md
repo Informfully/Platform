@@ -64,7 +64,7 @@ Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/
 Test versions are available for tree to download if you only want to have a quick look at the app.
 Reach out to use to get a demo account: info@informfully.ch
 
-Android (v 5.1 and newer)            |  iOS (v. 13.0 and newer)
+Android (v5.1 and newer)            |  iOS (v13.0 and newer)
 :-------------------------:|:-------------------------:
 [![Google Play](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/google-play.png)](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [![App Store](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/appstore.png)](https://apps.apple.com/de/app/informfully/id1460234202)
 
