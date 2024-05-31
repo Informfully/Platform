@@ -59,9 +59,7 @@ bash build.sh
 
 Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/deployment.html) and [Front End Deployment](https://informfully.readthedocs.io/en/latest/native.html) in the documentation.
 
-## Preview
-
-Test versions are available for tree to download if you only want to have a quick look at the app.
+Test versions are available to download if you want to have a quick look at the app.
 Reach out to use to get a demo account: info@informfully.ch
 
 Android (v5.1 and newer)            |  iOS (v13.0 and newer)
