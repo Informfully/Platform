@@ -11,7 +11,7 @@
       "android"
     ],
     "android": {
-      "package": "ch.uzh.ifi.news",
+      "package": "[BUNDLE-ID-ANDROID]]",
       "versionCode": 28,
       "adaptiveIcon": {
         "foregroundImage": "./assets/logo_1024_android_adaptive_foreground.png",
@@ -20,7 +20,7 @@
       }
     },
     "ios": {
-      "bundleIdentifier": "ch.uzh.ifi.ddis-news",
+      "bundleIdentifier": "[BUNDLE-ID-IOS]",
       "config": { "usesNonExemptEncryption": false }
     },
     "updates": {
