@@ -14,6 +14,9 @@ It is the combined documentation for all [code repositories](https://github.com/
 
 The following installation instructions are an abbreviated version for quickly getting you set and ready. You can access the full [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
 
+This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
+In case you need more information about React Native, the most recent version of this guide is available [here](https://github.com/expo/create-react-native-app/blob/master/README.md).
+
 ### Download the Code
 
 Informfully is a React Native app that uses a Meteor servers as back end. Download the code and Meteor as follows:
