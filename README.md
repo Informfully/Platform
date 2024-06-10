@@ -26,11 +26,12 @@ git clone https://github.com/Informfully/Platform.git
 cd backend
 meteor npm install
 ```
-Find more on [Installation Instructions](https://informfully.readthedocs.io/en/latest/install.html) in the documentation.
+
+After you downloaded the code, you need to verify the React Native Packager Hostname. We have a small guide for Mac, Linux, and Windows. Find more on [Installation Instructions](https://informfully.readthedocs.io/en/latest/install.html) in the documentation.
 
 ### Run the Code
 
-Make sure that you are specifying the same port that you are using in the [React Native App](https://github.com/Informfully/Platform/blob/main/frontend/App.js). You can then start the server with:
+Once everything is downloaded, all you need to do is to run the back end and connect it with the front end. You can then start the server with:
 
 ```bash
 # To run the server on port 3008
@@ -44,19 +45,21 @@ bash meteor-start.sh
 meteor --port 3008 --settings settings-dev.json
 ```
 
+Make sure that you are specifying the same port for the back end that you are using in the [React Native App](https://github.com/Informfully/Platform/blob/main/frontend/App.js).
 Find more on [Local Development](https://informfully.readthedocs.io/en/latest/development.html) in the documentation.
 
 ### Deploy the Code
 
-For your convenience, we have created a script that automatically deploys the back end to the server.
-To run it, simply execute the following
-in a Terminal (with the current directory being the root of the back end repo):
+After development and testing your instance of Informfully, you are ready to deploy your solution.
+For your convenience, we have created a script that automatically deploys the back end to any local or cloud server.
+Navigate to the main directory of your codebase end execute the following script:
 
 ```bash
 # Deploy back end on the server
 bash build.sh
 ```
 
+Deploment of the front end is done via Google Play for Android and XCode for iOS.
 Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/deployment.html) and [Front End Deployment](https://informfully.readthedocs.io/en/latest/native.html) in the documentation.
 
 Test versions are available to download if you want to have a quick look at the app.
@@ -97,11 +100,13 @@ If you use any Informfully code/repository in a scientific publication, we ask y
   ```
 
 ## Contributing
-Your are welcome to contribute to the Informfully ecosystem and become a part of your cummunity. Feel free to:
+Your are welcome to contribute to the Informfully ecosystem and become a part of your community. Feel free to:
   - fork any of the [Informfully repositories](https://github.com/Informfully) and
   - make changes and create pull requests.
 
 Please post your feature requests and bug reports in our [GitHub issues](https://github.com/Informfully/Documentation/issues) section.
+
+We are always looking for motivated people to take part in this project. Reach our to use if you want to become a part of Informfully: info@informfully.ch
 
 ## License
 Released under the [MIT License](LICENSE). (Please note that the respective copyright licenses of third-party libraries and dependencies apply.)
