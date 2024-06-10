@@ -99,14 +99,18 @@ If you use any Informfully code/repository in a scientific publication, we ask y
   }
   ```
 
+## Collaboration
+
+Do you want to use Informfully, but there is no infrastructure that you can use? Informfully can be used as a hosted serivce. We offer to collaborate with you in your scientific experiments and provide you access to the research infrastructure.
+
+Feel free to reach out to us: info@informfully.ch
+
 ## Contributing
 Your are welcome to contribute to the Informfully ecosystem and become a part of your community. Feel free to:
   - fork any of the [Informfully repositories](https://github.com/Informfully) and
   - make changes and create pull requests.
 
 Please post your feature requests and bug reports in our [GitHub issues](https://github.com/Informfully/Documentation/issues) section.
-
-We are always looking for motivated people to take part in this project. Reach our to use if you want to become a part of Informfully: info@informfully.ch
 
 ## License
 Released under the [MIT License](LICENSE). (Please note that the respective copyright licenses of third-party libraries and dependencies apply.)
