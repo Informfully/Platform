@@ -12,14 +12,10 @@ It is the combined documentation for all [code repositories](https://github.com/
 
 ## Installation
 
-The following installation instructions are an abbreviated version for quickly getting you set and ready. You can access the full [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
-
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 In case you need more information about React Native, the most recent version of this guide is available [here](https://github.com/expo/create-react-native-app/blob/master/README.md).
 
-<p align="center">
-  <img src="https://github.com/Informfully/Documentation/blob/main/docs/source/gif/animation.gif?raw=true" height="680"/>
-</p>
+The following installation instructions are an abbreviated version for quickly getting you set and ready. You can access the full [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
 
 ### Download the Code
 
@@ -69,8 +65,14 @@ bash build.sh
 Deploment of the front end is done via Google Play for Android and XCode for iOS.
 Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/deployment.html) and [Front End Deployment](https://informfully.readthedocs.io/en/latest/native.html) in the documentation.
 
+### Demo
+
 Test versions are available to download if you want to have a quick look at the app.
 Reach out to use to get a demo account: info@informfully.ch
+
+<p align="center">
+  <img src="https://github.com/Informfully/Documentation/blob/main/docs/source/gif/animation.gif?raw=true" height="680"/>
+</p>
 
 Android (v5.1 and newer)            |  iOS (v13.0 and newer)
 :-------------------------:|:-------------------------:
