@@ -17,7 +17,11 @@ The following installation instructions are an abbreviated version for quickly g
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 In case you need more information about React Native, the most recent version of this guide is available [here](https://github.com/expo/create-react-native-app/blob/master/README.md).
 
+<div style="text-align: center;">
+
 ![App Preview](https://github.com/Informfully/Documentation/blob/main/docs/source/gif/animation.gif?raw=true)
+
+</div>
 
 ### Download the Code
 
