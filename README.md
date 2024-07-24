@@ -115,7 +115,7 @@ Do you want to use Informfully, but there is no infrastructure that you can use?
 Feel free to reach out to us: info@informfully.ch
 
 ## Contributing
-Your are welcome to contribute to the Informfully ecosystem and become a part of your community. Feel free to:
+Your are welcome to contribute to the Informfully ecosystem and become a part of our community. Feel free to:
   - fork any of the [Informfully repositories](https://github.com/Informfully)
   - join and write on the [dicussion board](https://github.com/orgs/Informfully/discussions)
   - make changes and create pull requests
