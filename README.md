@@ -79,7 +79,8 @@ Android (v5.1 and newer)            |  iOS (v13.0 and newer)
 [![Google Play](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/google-play.png)](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [![App Store](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/appstore.png)](https://apps.apple.com/de/app/informfully/id1460234202)
 
 ## Citation
-If you use any Informfully code/repository in a scientific publication, we ask you to cite the following papers:
+
+If you use any code or data of this repository in a scientific publication, we ask you to cite the following papers:
 
 <!--Update once the final version of the paper has been published.-->
 
