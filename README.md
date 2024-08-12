@@ -3,7 +3,15 @@
 ![Informfully](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/logo_banner.png)
 
 Welcome to [Informfully](https://informfully.ch/)!
-Informfully is an open-source reproducibility platform for content distribution and user experiments.
+Informfully is an open-source research platform for content distribution and running user experiments. 
+
+The platform allows you to push algorithmically curated text, image, audio, and video content to users and automatically generates a detailed log of their consumption history.
+It is a domain-agnostic and platform-independent solution to fit your specific needs.
+The platform was designed to accommodate different experiment types through versatility, ease of use, and scalability.
+It features three core components: 
+* a front end for displaying and interacting with recommended items, 
+* a back end for researchers to create and maintain user experiments, and 
+* a simple JSON-based exchange format for ranked item recommendations to interface with third-party services.
 
 To view the full documentation, please visit [Informfully at Read the Docs](https://informfully.readthedocs.io/).
 It is the combined documentation for all [code repositories](https://github.com/orgs/Informfully/repositories).
