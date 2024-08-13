@@ -26,9 +26,7 @@ In case you need more information about React Native, the most recent version of
 The following installation instructions are an abbreviated version for quickly getting you set and ready.
 You can access the full [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
 
-Alternatively you can reach out to us, the University of Zurich.
-We will run the back end and accomodate your experiment.
-Send an e-mail to: info@informfully.ch
+AlternativelyIf you want to use the Informfully Platform as a cloud service, hosted at the University of Zurich, please reach out to us: info@informfully.ch
 
 ### Download the Code
 
