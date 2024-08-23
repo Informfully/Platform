@@ -18,7 +18,17 @@ It is the combined documentation for all [code repositories](https://github.com/
 
 **Links and Resources:** [GitHub](https://github.com/orgs/Informfully) | [Website](https://informfully.ch) | [X](https://x.com/informfully) | [Documentation](https://informfully.readthedocs.io) | [DDIS@UZH](https://www.ifi.uzh.ch/en/ddis.html) | [Google Play](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [App Store](https://apps.apple.com/us/app/informfully/id1460234202)
 
-## Installation
+> Note: Our GitHub repositories allow you to run your own instance of Informfully.
+If you want to use the Informfully a cloud service, hosted at the University of Zurich, please reach out to us.
+Free demo accounts available upon reqeust: info@informfully.ch
+
+## Informfully Preview
+
+![Screenshots](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/informfully_assets/informfully_app_screens.png)
+
+Find out more in the [Online Documentation](https://informfully.readthedocs.io/en/latest/app.html) and create your own instance by deploying the  [Platform Repository](https://github.com/Informfully/Platform).
+
+## Installation Guide
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 In case you need more information about React Native, the most recent version of this guide is available [here](https://github.com/expo/create-react-native-app/blob/master/README.md).
