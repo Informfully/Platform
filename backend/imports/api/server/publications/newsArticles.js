@@ -8,6 +8,7 @@ import { Recommendations } from '../../recommendations';
 import Experiments from '../../experiments';
 import { userIsInRole } from '../../../lib/utils/utils_account';
 import { Explanations } from '../../explanations';
+import { RecommendationListsItem } from '../../recommendationListsItem';
 
 Meteor.publish('newsArticle', (articleId) => {
     check(articleId, String);
@@ -1253,6 +1254,36 @@ Meteor.publish('newsArticlesInArchive', function newsArticlesInArchivePublicatio
 });
 
 Meteor.publish('furtherRecommendedNewsArticles', function furtherRecommendedNewsArticlesPublications(limit, primaryCategory, articleId) {
+
+    /**
+     * This function is used to select a limited number of entries based on their probability of being selected, 
+     * @param {*} entries 
+     * @param {*} limit 
+     * @returns the limited number of entries
+     */
+    function weightedSample(entries, limit) {
+        var totalWeight = entries.reduce((sum, item) => sum + (item.selectionProbability || 1), 0);
+        var results = [];
+  
+        while (results.length < limit && entries.length > 0) {
+            let r = Math.random() * totalWeight;
+            let i = 0;
+  
+            for (; i < entries.length; i++) {
+                const weight = entries[i].selectionProbability || 1;
+                if (r < weight) break;
+                r -= weight;
+            }
+  
+            if (entries[i]) {
+                results.push(entries[i]);
+                totalWeight -= entries[i].selectionProbability || 1;
+                entries.splice(i, 1);
+            }
+        }  
+        return results;
+    }
+
     check(limit, Number);
     check(primaryCategory, String);
     check(articleId, String);
@@ -1261,16 +1292,33 @@ Meteor.publish('furtherRecommendedNewsArticles', function furtherRecommendedNews
     const { userId } = this;
 
     const cleanId = removeWeirdMinusSignsInFrontOfString(articleId);
-    const recommendations = Recommendations.find({ userId, primaryCategory, articleId: { $ne: cleanId } }, { sort: { prediction: -1 }, limit }).fetch();
 
-    if (recommendations && recommendations.length > 0) {
-        for (let i = 0; i < recommendations.length; i++) {
-            const { articleId, prediction } = recommendations[i];
-            const article = NewsArticles.findOne({ _id: articleId });
+    /**
+     * Allow for featured recommendations below items to be dynamic.
+     * Enables recommending user-specific follow-up items.
+     * E.g., for content-based recommendations of similar items as the one currently open.
+     * The feature is optional and fully backwards compatible.
+     * If there is no entry in the recommendaitonListsItems colleciton, the default content is loaded.
+     * (By default, articles of the same topic are displayed it the feature is enabled for an experiment.)
+     */
+    
+    // Get list of specific recommendations for an item (can be for a specific user or generic recommendation)
+    const recListItem = RecommendationListsItem.find({
+        articleId: cleanId,
+        $or: [
+          { userId: userId }, // for a specific user
+          { userId: "" }      // generic, for all users
+        ]
+      }).fetch();
 
-            if (!article) {
-                continue;
-            }
+    // Select a subset of the entries limited to a certain amount, based on the probability of being selected
+    const selectedEntries = weightedSample(recListItem, limit);
+
+    if (selectedEntries.length > 0) {
+        for (const entry of selectedEntries) {
+            const article = NewsArticles.findOne({ _id: entry.relatedArticleId });
+
+            if (!article) continue;
 
             const isInReadingList = ReadingList.findOne({
                 articleId: article._id,
@@ -1289,35 +1337,72 @@ Meteor.publish('furtherRecommendedNewsArticles', function furtherRecommendedNews
                 explanationArticle: [],
                 isInReadingList: !!isInReadingList,
                 isInArchive: !!isInArchive,
-                prediction,
+                prediction: entry.selectionProbability,
             });
         }
     } else {
-        const newsArticles = NewsArticles.find({ primaryCategory, _id: { $ne: cleanId } }, { sort: { datePublished: -1 }, limit }).fetch();
-        for (let i = 0; i < newsArticles.length; i++) {
-            const article = newsArticles[i];
 
-            const isInReadingList = ReadingList.findOne({
-                articleId: article._id,
-                userId,
-                removedAt: { $exists: false },
-            });
+        const recommendations = Recommendations.find({ userId, primaryCategory, articleId: { $ne: cleanId } }, { sort: { prediction: -1 }, limit }).fetch();
 
-            const isInArchive = Archive.findOne({
-                articleId: article._id,
-                userId,
-                removedAt: { $exists: false },
-            });
+        if (recommendations && recommendations.length > 0) {
+            for (let i = 0; i < recommendations.length; i++) {
+                const { articleId, prediction } = recommendations[i];
+                const article = NewsArticles.findOne({ _id: articleId });
 
-            this.added('furtherRecommendedNewsArticles', article._id, {
-                ...article,
-                explanationArticle: [],
-                isInReadingList: !!isInReadingList,
-                isInArchive: !!isInArchive,
-            });
+                if (!article) {
+                    continue;
+                }
 
+                const isInReadingList = ReadingList.findOne({
+                    articleId: article._id,
+                    userId,
+                    removedAt: { $exists: false },
+                });
+
+                const isInArchive = Archive.findOne({
+                    articleId: article._id,
+                    userId,
+                    removedAt: { $exists: false },
+                });
+
+                console.log('before adding article', article._id)
+
+                this.added('furtherRecommendedNewsArticles', article._id, {
+                    ...article,
+                    explanationArticle: [],
+                    isInReadingList: !!isInReadingList,
+                    isInArchive: !!isInArchive,
+                    prediction,
+                });
+            }
+        } else {
+
+            const newsArticles = NewsArticles.find({ primaryCategory, _id: { $ne: cleanId } }, { sort: { datePublished: -1 }, limit }).fetch();
+            for (let i = 0; i < newsArticles.length; i++) {
+                const article = newsArticles[i];
+    
+                const isInReadingList = ReadingList.findOne({
+                    articleId: article._id,
+                    userId,
+                    removedAt: { $exists: false },
+                });
+    
+                const isInArchive = Archive.findOne({
+                    articleId: article._id,
+                    userId,
+                    removedAt: { $exists: false },
+                });
+    
+                this.added('furtherRecommendedNewsArticles', article._id, {
+                    ...article,
+                    explanationArticle: [],
+                    isInReadingList: !!isInReadingList,
+                    isInArchive: !!isInArchive,
+                });
+            }                
         }
     }
+        
 
     const readingListObserver = ReadingList.find({ userId }).observe({
 
