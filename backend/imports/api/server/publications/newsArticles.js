@@ -1306,6 +1306,7 @@ Meteor.publish('furtherRecommendedNewsArticles', function furtherRecommendedNews
      */
     
     // Get list of specific recommendations for an item (can be for a specific user or generic recommendation)
+    // It also filters by experiment and user group
     const recListItem = RecommendationListsItem.find({
         articleId: cleanId,
         $or: [
