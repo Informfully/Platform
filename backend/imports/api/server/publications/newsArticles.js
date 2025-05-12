@@ -1291,6 +1291,9 @@ Meteor.publish('furtherRecommendedNewsArticles', function furtherRecommendedNews
     let initializing = true;
     const { userId } = this;
 
+    // getting the current user object
+    const user = Meteor.users.findOne({ _id: this.userId }, { fields: { participatesIn: 1, userGroup: 1 } });
+
     const cleanId = removeWeirdMinusSignsInFrontOfString(articleId);
 
     /**
@@ -1308,7 +1311,9 @@ Meteor.publish('furtherRecommendedNewsArticles', function furtherRecommendedNews
         $or: [
           { userId: userId }, // for a specific user
           { userId: "" }      // generic, for all users
-        ]
+        ],
+        participatesIn: user.participatesIn,
+        userGroup: user.userGroup
       }).fetch();
 
     // Select a subset of the entries limited to a certain amount, based on the probability of being selected
