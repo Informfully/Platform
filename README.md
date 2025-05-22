@@ -91,9 +91,13 @@ Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/
 Test versions are available to download if you want to have a quick look at the app.
 Reach out to use to get a demo account: info@informfully.ch
 
+<!--
+
 <p align="center">
   <img src="https://github.com/Informfully/Documentation/blob/main/docs/source/gif/animation.gif?raw=true" height="680"/>
 </p>
+
+-->
 
 Android (v5.1 and newer)            |  iOS (v13.0 and newer)
 :-------------------------:|:-------------------------:
@@ -102,8 +106,6 @@ Android (v5.1 and newer)            |  iOS (v13.0 and newer)
 ## Citation
 
 If you use any code or data of this repository in a scientific publication, we ask you to cite the following papers:
-
-<!--Update once the final version of the paper has been published.-->
 
 - [Informfully - Research Platform for Reproducible User Studies](https://dl.acm.org/doi/10.1145/3640457.3688066), Heitz *et al.*, Proceedings of the 18th ACM Conference on Recommender Systems, 2024.
 
