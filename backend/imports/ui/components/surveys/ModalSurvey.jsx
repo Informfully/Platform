@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Meteor } from 'meteor/meteor';
-import { FlowRouter } from 'meteor/kadira:flow-router';
+import { FlowRouter } from 'meteor/ostrio:flow-router-extra';
 import '@fortawesome/fontawesome-free/js/all';
 import ModalBody from '../../elements/modal/ModalBody';
 import ModalFoot from '../../elements/modal/ModalFoot';

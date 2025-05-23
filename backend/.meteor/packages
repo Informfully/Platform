@@ -14,10 +14,10 @@ standard-minifier-js@2.8.1    # JS minifier run for production modees5-shim@4.8.
 ecmascript@0.16.8              # Enable ECMAScript2015+ syntax in app code
 shell-server@0.5.0            # Server-side component of the `meteor shell` command
 
-kadira:flow-router
 accounts-password@2.4.0
 alanning:roles
 meteortesting:mocha
 email@2.2.5
 session@1.2.1
 react-meteor-data@2.0.0
+ostrio:flow-router-extra
