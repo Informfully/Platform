@@ -280,7 +280,7 @@ class Settings extends React.Component {
 
                     <View style={styles().itemSpace} />
 
-                    <Collapse>
+                    {/* <Collapse>
                         <CollapseHeader>
                             <View style={styles().listItem}>
                                 <Text style={styles().listHeader}>{I18n.t('SETTINGS.APP_INFO')}</Text>
@@ -320,7 +320,7 @@ class Settings extends React.Component {
 
                         <View style={styles().itemSeparator} />
                         </CollapseBody>
-                    </Collapse>
+                    </Collapse> */}
 
                     <View style={styles().clickableItems}>
                         <View style={styles().itemSpace} />
@@ -333,12 +333,12 @@ class Settings extends React.Component {
                         </TouchableOpacity>
                         <View style={styles().itemSeparator} />
 
-                        <TouchableOpacity
+                        {/* <TouchableOpacity
                             style={styles().listItem}
                             onPress={() => { this.props.navigation.navigate('Tutorial'); }}
                         >
                             <Text style={styles().listItemText}>{I18n.t('SETTINGS.RETAKE_TUTORIAL')}</Text>
-                        </TouchableOpacity>
+                        </TouchableOpacity> */}
                         <View style={styles().itemSeparator} />
                         
                         <View style={styles().itemSpace} />

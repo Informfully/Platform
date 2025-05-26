@@ -358,6 +358,27 @@ class InnerArticle extends React.Component {
                     // eslint-disable-next-line react/no-array-index-key
                     return <Text key={i} style={newsArticlesStyleGenerator().quote}>{text}</Text>;
                 }
+                if (type === 'image' && text) {
+                    return (
+                                <View key={i} style={{ marginVertical: 10, alignItems: 'center' }}>
+                                    <Image
+                                        style={{
+                                            width: fullWidth * 0.9,
+                                            height: (fullWidth * 0.9) * 0.56,
+                                            resizeMode: 'cover',
+                                            borderRadius: 6,
+                                        }}
+                                        source={{uri: text }}
+                                    />
+                                    {/* // in the future we could add a caption here */}
+                                    {/* {caption ? (
+                                        <Text style={[newsArticlesStyleGenerator().paragraph, { fontStyle: 'italic', marginTop: 5, textAlign: 'center' }]}>
+                                            {caption}
+                                        </Text>
+                                    ) : null} */}
+                                </View>
+                            );
+                }
             }
             return null;
         });

@@ -22,7 +22,8 @@ import StorageKeys from './components/utils/StorageKeys';
 // when running in Expo client, do not show yellow box for react-native-i18n linking warning
 console.ignoredYellowBox = ['react-native-i18n module is not correctly linked'];
 
-const SERVER = 'wss://your.domain/websocket';
+const SERVER = 'wss://aimdrrs.nl/websocket';
+// const SERVER = 'ws://ecaai-comp-prd1.ict.hva.nl:3008/websocket';
 // const SERVER = 'localhost';
 // const SERVER = 'ws://192.168.0.22:3008/websocket';
 // const SERVER = 'ws://192.168.43.24:3008/websocket';

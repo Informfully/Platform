@@ -41,7 +41,7 @@ class Contact extends React.Component {
 
                     </View>
 
-                    <View style={styles().clickableItems}>
+                    {/* <View style={styles().clickableItems}>
 
 
                         <View style={styles().itemSeparator} />
@@ -58,7 +58,7 @@ class Contact extends React.Component {
                         <View style={styles().itemSpace} />
 
 
-                    </View>
+                    </View> */}
 
 
                     <Text style={styles().addressText}>{this.props.addressTitle}</Text>
@@ -69,8 +69,8 @@ class Contact extends React.Component {
                     <Text style={styles().addressText}>{this.props.addressCountry}</Text>
                     <View style={styles().itemSpace} />
 
-                    <Text style={styles().addressText}>{this.props.phoneNumber}</Text>
-                    <View style={styles().itemSpace} />
+                    {/* <Text style={styles().addressText}>{this.props.phoneNumber}</Text> */}
+                    {/* <View style={styles().itemSpace} /> */}
                     <Text style={styles().addressText}>{this.props.feedbackEmail}</Text>
 
 
@@ -99,12 +99,12 @@ Contact.propTypes = {
 
 Contact.defaultProps = {
     feedbackEmail: 'placeholder@your.domain',
-    addressTitle: 'Name',
-    addressName: 'Details',
-    addressStreet: 'Street',
-    addressCity: 'City',
-    addressCountry: 'Country',
-    phoneNumber: '+98 76 654 32 10',
+    addressTitle: 'NEMO Science Museum',
+    addressName: 'Bezoekadres:',
+    addressStreet: 'Oosterdok 2',
+    addressCity: '1011 VX Amsterdam Amsterdam',
+    addressCountry: 'Nederland',
+    phoneNumber: '',
 };
 
 const styles = () => StyleSheet.create({
