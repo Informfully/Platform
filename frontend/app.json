@@ -2,16 +2,16 @@
   "expo": {
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
-    "name": "[APPLICATION-NAME]",
-    "slug": "[APPLICATION-NAME]",
-    "version": "X.Y.Z",
+    "name": "Nemo Informfully",
+    "slug": "Nemo Informfully",
+    "version": "1.0.0",
     "icon": "./assets/logo_1024.png",
     "platforms": [
       "ios",
       "android"
     ],
     "android": {
-      "package": "[BUNDLE-ID-ANDROID]]",
+      "package": "nl.nemokennislink.informfully",
       "versionCode": 28,
       "adaptiveIcon": {
         "foregroundImage": "./assets/logo_1024_android_adaptive_foreground.png",
@@ -20,7 +20,7 @@
       }
     },
     "ios": {
-      "bundleIdentifier": "[BUNDLE-ID-IOS]",
+      "bundleIdentifier": "nl.nemokennislink.informfully",
       "config": { "usesNonExemptEncryption": false }
     },
     "updates": {

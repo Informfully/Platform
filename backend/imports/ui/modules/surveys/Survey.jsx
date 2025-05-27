@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from '../../elements/Button';
 import { useTheme } from '../../context/ThemeContext';
 import FaIcon from '../../elements/FaIcon';
-import { FlowRouter } from 'meteor/kadira:flow-router';
+import { FlowRouter } from 'meteor/ostrio:flow-router-extra';
 
 
 export default function Survey (props) {

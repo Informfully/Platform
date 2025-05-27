@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { mount } from 'react-mounter';
-import { FlowRouter } from 'meteor/kadira:flow-router';
+import { FlowRouter } from 'meteor/ostrio:flow-router-extra';
 import React from 'react';
 import Root from '../../../../ui/Root';
 import { firstGrantedRoute, routeGranted } from '../utils_routes';
