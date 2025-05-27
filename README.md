@@ -19,8 +19,8 @@ It is the combined documentation for all [code repositories](https://github.com/
 **Links and Resources:** [GitHub](https://github.com/orgs/Informfully) | [Website](https://informfully.ch) | [X](https://x.com/informfully) | [Documentation](https://informfully.readthedocs.io) | [DDIS@UZH](https://www.ifi.uzh.ch/en/ddis.html) | [Google Play](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [App Store](https://apps.apple.com/us/app/informfully/id1460234202)
 
 > Note: Our GitHub repositories allow you to run your own instance of Informfully.
-If you want to use the Informfully a cloud service, hosted at the University of Zurich, please reach out to us.
-Free demo accounts available upon reqeust: info@informfully.ch
+If you want to use Informfully, a cloud service hosted at the University of Zurich, please reach out to us.
+Free demo accounts available upon request: info@informfully.ch
 
 ## Informfully Preview
 
@@ -36,11 +36,10 @@ In case you need more information about React Native, the most recent version of
 The following installation instructions are an abbreviated version for quickly getting you set and ready.
 You can access the full [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
 
-AlternativelyIf you want to use the Informfully Platform as a cloud service, hosted at the University of Zurich, please reach out to us: info@informfully.ch
-
 ### Download the Code
 
-Informfully is a React Native app that uses a Meteor servers as back end. Download the code and Meteor as follows:
+Informfully is a React Native app that uses Meteor servers as a back end.
+Download the code and Meteor as follows:
 
 ```bash
 # Download the source code
@@ -51,11 +50,11 @@ cd backend
 meteor npm install
 ```
 
-After you downloaded the code, you need to verify the React Native Packager Hostname. We have a small guide for Mac, Linux, and Windows. Find more on [Installation Instructions](https://informfully.readthedocs.io/en/latest/install.html) in the documentation.
+After you have downloaded the code, you need to verify the React Native Packager Hostname. We have a small guide for Mac, Linux, and Windows. Find more on [Installation Instructions](https://informfully.readthedocs.io/en/latest/install.html) in the documentation.
 
 ### Run the Code
 
-Once everything is downloaded, all you need to do is to run the back end and connect it with the front end. You can then start the server with:
+Once everything is downloaded, all you need to do is run the back end and connect it with the front end. You can then start the server with:
 
 ```bash
 # To run the server on port 3008
@@ -76,20 +75,20 @@ Find more on [Local Development](https://informfully.readthedocs.io/en/latest/de
 
 After development and testing your instance of Informfully, you are ready to deploy your solution.
 For your convenience, we have created a script that automatically deploys the back end to any local or cloud server.
-Navigate to the main directory of your codebase end execute the following script:
+Navigate to the main directory of your codebase and execute the following script:
 
 ```bash
 # Deploy back end on the server
 bash build.sh
 ```
 
-Deploment of the front end is done via Google Play for Android and XCode for iOS.
+Deployment of the front end is done via Google Play for Android and XCode for iOS.
 Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/deployment.html) and [Front End Deployment](https://informfully.readthedocs.io/en/latest/native.html) in the documentation.
 
 ### Demo
 
 Test versions are available to download if you want to have a quick look at the app.
-Reach out to use to get a demo account: info@informfully.ch
+Reach out to us to get a demo account: info@informfully.ch
 
 <!--
 
@@ -105,7 +104,7 @@ Android (v5.1 and newer) | iOS (v13.0 and newer) |
 
 ## Citation
 
-If you use any code or data of this repository in a scientific publication, we ask you to cite the following papers:
+If you use any code or data from this repository in a scientific publication, we ask you to cite the following papers:
 
 - [Informfully - Research Platform for Reproducible User Studies](https://dl.acm.org/doi/10.1145/3640457.3688066), Heitz *et al.*, Proceedings of the 18th ACM Conference on Recommender Systems, 2024.
 
@@ -148,14 +147,15 @@ If you use any code or data of this repository in a scientific publication, we a
 
 ## Collaboration
 
-Do you want to use Informfully, but there is no infrastructure that you can use? Informfully can be used as a hosted serivce. We offer to collaborate with you in your scientific experiments and provide you access to the research infrastructure.
+Do you want to use Informfully, but there is no infrastructure that you can use? Informfully can be used as a hosted service.
+We offer to collaborate with you in your scientific experiments and provide you with access to the research infrastructure.
 
 Feel free to reach out to us: info@informfully.ch
 
 ## Contributing
-Your are welcome to contribute to the Informfully ecosystem and become a part of our community. Feel free to:
+You are welcome to contribute to the Informfully ecosystem and become a part of our community. Feel free to:
   - fork any of the [Informfully repositories](https://github.com/Informfully)
-  - join and write on the [dicussion board](https://github.com/orgs/Informfully/discussions)
+  - join and write on the [discussion board](https://github.com/orgs/Informfully/discussions)
   - make changes and create pull requests
 
 Please post your feature requests and bug reports in our [GitHub issues](https://github.com/Informfully/Documentation/issues) section.
