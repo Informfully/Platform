@@ -91,16 +91,14 @@ Test versions are available to download if you want to have a quick look at the 
 Reach out to us to get a demo account: info@informfully.ch
 
 <!--
-
 <p align="center">
   <img src="https://github.com/Informfully/Documentation/blob/main/docs/source/gif/animation.gif?raw=true" height="680"/>
 </p>
-
 -->
 
 Android (v5.1 and newer) | iOS (v13.0 and newer) |
 :-:|:-:
-[![Google Play](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/google-play.png)](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [![App Store](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/appstore.png)](https://apps.apple.com/de/app/informfully/id1460234202)
+[![Google Play](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/logo_google.png)](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [![App Store](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/logo_apple.png)](https://apps.apple.com/de/app/informfully/id1460234202)
 
 ## Citation
 
