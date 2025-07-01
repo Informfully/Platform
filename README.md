@@ -151,14 +151,17 @@ We offer to collaborate with you in your scientific experiments and provide you 
 Feel free to reach out to us: info@informfully.ch
 
 ## Contributing
-You are welcome to contribute to the Informfully ecosystem and become a part of our community. Feel free to:
-  - fork any of the [Informfully repositories](https://github.com/Informfully)
-  - join and write on the [discussion board](https://github.com/orgs/Informfully/discussions)
-  - make changes and create pull requests
+
+You are welcome to contribute to the Informfully ecosystem and become a part of our community.
+Feel free to:
+* Fork any of the [Informfully repositories](https://github.com/Informfully/Documentation).
+* Suggest new features in [Future Release](https://github.com/orgs/Informfully/projects/1).
+* Make changes and create pull requests.
 
 Please post your feature requests and bug reports in our [GitHub issues](https://github.com/Informfully/Documentation/issues) section.
 
 ## License
+
 Released under the [MIT License](LICENSE). (Please note that the respective copyright licenses of third-party libraries and dependencies apply.)
 
 ![Screenshots](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/app_screens.png)
