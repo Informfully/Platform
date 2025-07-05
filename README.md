@@ -3,14 +3,15 @@
 ![Informfully](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/logo_banner.png)
 
 Welcome to Informfully ([GitHub](https://github.com/orgs/Informfully) & [Website](https://informfully.ch/))!
-Informfully is an open-source research platform for content distribution and running user experiments. 
+Informfully is an open-source research platform for content distribution and running user experiments.
 
 The platform allows you to push algorithmically curated text, image, audio, and video content to users and automatically generates a detailed log of their consumption history.
 It is a domain-agnostic and platform-independent solution to fit your specific needs.
 The platform was designed to accommodate different experiment types through versatility, ease of use, and scalability.
-It features three core components: 
-* a front end for displaying and interacting with recommended items, 
-* a back end for researchers to create and maintain user experiments, and 
+It features three core components:
+
+* a front end for displaying and interacting with recommended items,
+* a back end for researchers to create and maintain user experiments, and
 * a simple JSON-based exchange format for ranked item recommendations to interface with third-party services.
 
 To view the full documentation, please visit [Informfully at Read the Docs](https://informfully.readthedocs.io/).
@@ -31,7 +32,7 @@ Find out more in the [Online Documentation](https://informfully.readthedocs.io/e
 ## Installation Guide
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
-In case you need more information about React Native, the most recent version of this guide is available [here](https://github.com/expo/create-react-native-app/blob/master/README.md).
+In case you need more information about React Native, the most recent version of this guide is available [on the official GitHub repository](https://github.com/expo/create-react-native-app/blob/master/README.md).
 
 The following installation instructions are an abbreviated version for quickly getting you set and ready.
 You can access the full [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
@@ -85,7 +86,7 @@ bash build.sh
 Deployment of the front end is done via Google Play for Android and XCode for iOS.
 Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/deployment.html) and [Front End Deployment](https://informfully.readthedocs.io/en/latest/native.html) in the documentation.
 
-### Demo
+### Download the App
 
 Test versions are available to download if you want to have a quick look at the app.
 Reach out to us to get a demo account: info@informfully.ch
@@ -97,8 +98,8 @@ Reach out to us to get a demo account: info@informfully.ch
 -->
 
 Android (v5.1 and newer) | iOS (v13.0 and newer) |
-:-:|:-:
-[![Google Play](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/logo_google.png)](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [![App Store](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/logo_apple.png)](https://apps.apple.com/de/app/informfully/id1460234202)
+:-: | :-: |
+[![Google Play](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/logo_google.png)](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [![App Store](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/logo_apple.png)](https://apps.apple.com/de/app/informfully/id1460234202) |
 
 ## Citation
 
@@ -154,9 +155,10 @@ Feel free to reach out to us: info@informfully.ch
 
 You are welcome to contribute to the Informfully ecosystem and become a part of our community.
 Feel free to:
-* Fork any of the [Informfully repositories](https://github.com/Informfully/Documentation).
-* Suggest new features in [Future Release](https://github.com/orgs/Informfully/projects/1).
-* Make changes and create pull requests.
+
+- Fork any of the [Informfully repositories](https://github.com/Informfully/Documentation).
+- Suggest new features in [Future Release](https://github.com/orgs/Informfully/projects/1).
+- Make changes and create pull requests.
 
 Please post your feature requests and bug reports in our [GitHub issues](https://github.com/Informfully/Documentation/issues) section.
 
