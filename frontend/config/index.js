@@ -13,4 +13,4 @@ export const HOMEPAGE_URL = 'https://your.domain/';
 // if you set the html, the html will be displayed instead of the url
 // export const PRIVACY_POLICY_HTML = '<h1>Datenschutzbestimmungen</h1>';
 
-export const DELETEACCOUNT_URL = 'https://www.nemokennislink.nl/toelichting-op-deelname-aan-ons-onderzoek';
+export const DELETEACCOUNT_URL = 'https://your.domain/delete';

@@ -99,12 +99,12 @@ Contact.propTypes = {
 
 Contact.defaultProps = {
     feedbackEmail: 'placeholder@your.domain',
-    addressTitle: 'NEMO Science Museum',
-    addressName: 'Bezoekadres:',
-    addressStreet: 'Oosterdok 2',
-    addressCity: '1011 VX Amsterdam Amsterdam',
-    addressCountry: 'Nederland',
-    phoneNumber: '',
+    addressTitle: 'Name',
+    addressName: 'Details',
+    addressStreet: 'Street',
+    addressCity: 'City',
+    addressCountry: 'Country',
+    phoneNumber: '+98 76 654 32 10',
 };
 
 const styles = () => StyleSheet.create({
