@@ -21,7 +21,7 @@ It is the combined documentation for all [code repositories](https://github.com/
 
 > Note: Our GitHub repositories allow you to run your own instance of Informfully.
 If you want to use Informfully, a cloud service hosted at the University of Zurich, please reach out to us.
-Free demo accounts available upon request: info@informfully.ch
+Free demo accounts available upon request: <info@informfully.ch>
 
 ## Informfully Preview
 
@@ -89,13 +89,7 @@ Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/
 ### Download the App
 
 Test versions are available to download if you want to have a quick look at the app.
-Reach out to us to get a demo account: info@informfully.ch
-
-<!--
-<p align="center">
-  <img src="https://github.com/Informfully/Documentation/blob/main/docs/source/gif/animation.gif?raw=true" height="680"/>
-</p>
--->
+Reach out to us to get a demo account: <info@informfully.ch>
 
 Android (v5.1 and newer) | iOS (v13.0 and newer) |
 :-: | :-: |
@@ -105,7 +99,7 @@ Android (v5.1 and newer) | iOS (v13.0 and newer) |
 
 If you use any code or data from this repository in a scientific publication, we ask you to cite the following papers:
 
-- [Informfully - Research Platform for Reproducible User Studies](https://dl.acm.org/doi/10.1145/3640457.3688066), Heitz *et al.*, Proceedings of the 18th ACM Conference on Recommender Systems, 2024.
+* [Informfully - Research Platform for Reproducible User Studies](https://doi.org/10.1145/3640457.3688066), Heitz *et al.*, Proceedings of the 18th ACM Conference on Recommender Systems, 2024.
 
   ```tex
   @inproceedings{heitz2024informfully,
@@ -117,7 +111,7 @@ If you use any code or data from this repository in a scientific publication, we
   }
   ```
 
-- [Deliberative Diversity for News Recommendations - Operationalization and Experimental User Study](https://dl.acm.org/doi/10.1145/3604915.3608834), Heitz *et al.*, Proceedings of the 17th ACM Conference on Recommender Systems, 813–819, 2023.
+* [Deliberative Diversity for News Recommendations - Operationalization and Experimental User Study](https://doi.org/10.1145/3604915.36088344), Heitz *et al.*, Proceedings of the 17th ACM Conference on Recommender Systems, 813–819, 2023.
 
   ```tex
   @inproceedings{heitz2023deliberative,
@@ -129,7 +123,7 @@ If you use any code or data from this repository in a scientific publication, we
   }
   ```
 
-- [Benefits of Diverse News Recommendations for Democracy: A User Study](https://www.tandfonline.com/doi/full/10.1080/21670811.2021.2021804), Heitz *et al.*, Digital Journalism, 10(10): 1710–1730, 2022.
+* [Benefits of Diverse News Recommendations for Democracy: A User Study](https://doi.org/10.1080/21670811.2021.2021804), Heitz *et al.*, Digital Journalism, 10(10): 1710–1730, 2022.
 
   ```tex
   @article{heitz2022benefits,
@@ -149,16 +143,16 @@ If you use any code or data from this repository in a scientific publication, we
 Do you want to use Informfully, but there is no infrastructure that you can use? Informfully can be used as a hosted service.
 We offer to collaborate with you in your scientific experiments and provide you with access to the research infrastructure.
 
-Feel free to reach out to us: info@informfully.ch
+Feel free to reach out to us: <info@informfully.ch>
 
 ## Contributing
 
 You are welcome to contribute to the Informfully ecosystem and become a part of our community.
 Feel free to:
 
-- Fork any of the [Informfully repositories](https://github.com/Informfully/Documentation).
-- Suggest new features in [Future Release](https://github.com/orgs/Informfully/projects/1).
-- Make changes and create pull requests.
+* Fork any of the [Informfully repositories](https://github.com/Informfully/Documentation).
+* Suggest new features in [Future Release](https://github.com/orgs/Informfully/projects/1).
+* Make changes and create pull requests.
 
 Please post your feature requests and bug reports in our [GitHub issues](https://github.com/Informfully/Documentation/issues) section.
 
