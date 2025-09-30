@@ -107,7 +107,9 @@ If you use any code or data from this repository in a scientific publication, we
     author={Heitz, Lucien and Croci, Julian A and Sachdeva, Madhav and Bernstein, Abraham},
     booktitle={Proceedings of the 18th ACM Conference on Recommender Systems},
     pages={660--669},
-    year={2024}
+    year={2024},
+    publisher={ACM New York, NY, USA},
+    url={https://doi.org/10.1145/3640457.3688066}
   }
   ```
 
@@ -119,7 +121,9 @@ If you use any code or data from this repository in a scientific publication, we
     author={Heitz, Lucien and Lischka, Juliane A and Abdullah, Rana and Laugwitz, Laura and Meyer, Hendrik and Bernstein, Abraham},
     booktitle={Proceedings of the 17th ACM Conference on Recommender Systems},
     pages={813--819},
-    year={2023}
+    year={2023},
+    publisher={ACM New York, NY, USA},
+    url={https://doi.org/10.1145/3604915.3608834}
   }
   ```
 
@@ -134,7 +138,8 @@ If you use any code or data from this repository in a scientific publication, we
     number={10},
     pages={1710--1730},
     year={2022},
-    publisher={Taylor \& Francis}
+    publisher={Taylor \& Francis, UK},
+    url={https://doi.org/10.1080/21670811.2021.2021804}
   }
   ```
 
