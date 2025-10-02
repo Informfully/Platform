@@ -50,6 +50,7 @@ Meteor.methods({
         },
 
     'articleViews.add'(articleId) {
+
         check(articleId, String);
 
         const { userId } = this;
@@ -66,7 +67,8 @@ Meteor.methods({
 
         const now = new Date();
         const view = ArticleViews.findOne({ userId, articleId });
-        const createdAt = view.createdAt == 0 ? now : view.createdAt;
+
+        const createdAt = !view || view.createdAt == 0 ? now : view.createdAt;
 
         // no need for reactivity in this operation
         return ArticleViews.update(
@@ -81,6 +83,9 @@ Meteor.methods({
                 },
                 $inc: { views: 1 },
             },
+            {
+                upsert: true
+            }
         );
     },
 
@@ -95,6 +100,7 @@ Meteor.methods({
 
         const now = new Date();
         const view = ArticleViews.findOne({ userId, articleId });
+
         const durationIncrement = now - view.updatedAt;
         return ArticleViews.update(view, { $inc: { duration: durationIncrement } });
     },

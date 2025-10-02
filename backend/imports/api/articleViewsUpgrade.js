@@ -73,27 +73,59 @@ Meteor.methods({
         }
 
         const now = new Date();
-        const existingArticleViews = ArticleViewsUpgrade.findOne({
-            userId,
-            "articleCollection.articleId": articleId
-        });
-        const createdAtValue = existingArticleViews.articleCollection.find(item => item.articleId === articleId)?.createdAt;
-        const createdAt = createdAtValue == 0 ? now : createdAtValue;
 
-        // no need for reactivity in this operation
-        return ArticleViewsUpgrade.update(
-            {
+        const userDoc = ArticleViewsUpgrade.findOne({ userId });
+
+        if (!userDoc) {
+            // in such situation, there is no document for user – insert new one with this article
+            return ArticleViewsUpgrade.insert({
                 userId,
-                "articleCollection.articleId": articleId,
-            },
-            {
-                $set: {
-                    "articleCollection.$.updatedAt": now,
-                    "articleCollection.$.createdAt": createdAt,
+                articleCollection: [{
+                    articleId,
+                    createdAt: now,
+                    updatedAt: now,
+                    views: 1,
+                }]
+            });
+        }
+
+        const articleEntry = userDoc.articleCollection.find(item => item.articleId === articleId);
+
+        if (articleEntry) {
+            // Article exists – update existing one
+            const createdAt = articleEntry.createdAt || now;
+
+            return ArticleViewsUpgrade.update(
+                {
+                    userId,
+                    "articleCollection.articleId": articleId,
                 },
-                $inc: { "articleCollection.$.views": 1 },
-            },
-        );
+                {
+                    $set: {
+                        "articleCollection.$.updatedAt": now,
+                        "articleCollection.$.createdAt": createdAt,
+                    },
+                    $inc: {
+                        "articleCollection.$.views": 1,
+                    }
+                }
+            );
+        } else {
+            // Article does not exist – push new one into array
+            return ArticleViewsUpgrade.update(
+                { userId },
+                {
+                    $push: {
+                        articleCollection: {
+                            articleId,
+                            createdAt: now,
+                            updatedAt: now,
+                            views: 1,
+                        }
+                    }
+                }
+            );
+        }
     },
 
 
@@ -111,6 +143,7 @@ Meteor.methods({
             userId,
             "articleCollection.articleId": articleId
         });
+
         const updateAtValue = existingArticleViews.articleCollection.find(item => item.articleId === articleId)?.updatedAt;
 
         const durationIncrement = now - updateAtValue;
