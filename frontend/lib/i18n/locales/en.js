@@ -58,7 +58,7 @@ export default {
         INVALID_EMAIL_MESSAGE: 'Please enter a valid email address',
         EMPTY_PASSWORD_MESSAGE: 'Please enter a password',
         SIGN_IN: 'Sign In',
-        NO_ACCOUNT_YET: 'If you do not have login credentials, please contact the research group',
+        NO_ACCOUNT_YET: 'An account will be provided to you. If you have no credentials, please reach out to the research group that instructed you to download the app.',
         SIGN_UP: 'Register now',
         FORGOT_PASSWORD_BUTTON_TEXT: 'Forgot your password?',
     },
