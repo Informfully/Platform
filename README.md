@@ -20,7 +20,7 @@ It is the combined documentation for all [code repositories](https://github.com/
 **Links and Resources:** [GitHub](https://github.com/orgs/Informfully) | [Website](https://informfully.ch) | [X](https://x.com/informfully) | [Documentation](https://informfully.readthedocs.io) | [DDIS@UZH](https://www.ifi.uzh.ch/en/ddis.html) | [Google Play](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [App Store](https://apps.apple.com/us/app/informfully/id1460234202)
 
 > Note: Our GitHub repositories allow you to run your own instance of Informfully.
-If you want to use Informfully, a cloud service hosted at the University of Zurich, please reach out to us.
+If you would like to use Informfully, a cloud service hosted at the University of Zurich, please contact us.
 Free demo accounts available upon request: <info@informfully.ch>
 
 ## Informfully Preview
@@ -34,7 +34,7 @@ Find out more in the [Online Documentation](https://informfully.readthedocs.io/e
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 In case you need more information about React Native, the most recent version of this guide is available [on the official GitHub repository](https://github.com/expo/create-react-native-app/blob/master/README.md).
 
-The following installation instructions are an abbreviated version for quickly getting you set and ready.
+The following installation instructions provide an abbreviated version to help you get set up quickly and ready.
 You can access the full [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
 
 ### Download the Code
@@ -55,7 +55,7 @@ After you have downloaded the code, you need to verify the React Native Packager
 
 ### Run the Code
 
-Once everything is downloaded, all you need to do is run the back end and connect it with the front end. You can then start the server with:
+Once everything is downloaded, simply run the back end and connect it to the front end. You can then start the server with:
 
 ```bash
 # To run the server on port 3008
@@ -88,7 +88,7 @@ Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/
 
 ### Download the App
 
-Test versions are available to download if you want to have a quick look at the app.
+Test versions are available for download if you'd like to take a quick look at the app.
 Reach out to us to get a demo account: <info@informfully.ch>
 
 Android (v5.1 and newer) | iOS (v13.0 and newer) |
@@ -145,7 +145,7 @@ If you use any code or data from this repository in a scientific publication, we
 
 ## Collaboration
 
-Do you want to use Informfully, but there is no infrastructure that you can use? Informfully can be used as a hosted service.
+Do you want to use Informfully, but there is no infrastructure available for you to use? Informfully can be used as a hosted service.
 We offer to collaborate with you in your scientific experiments and provide you with access to the research infrastructure.
 
 Feel free to reach out to us: <info@informfully.ch>
