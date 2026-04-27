@@ -6,7 +6,7 @@ Welcome to Informfully ([GitHub](https://github.com/orgs/Informfully) & [Website
 Informfully is an open-source research platform for content distribution and running user experiments.
 
 The platform allows you to push algorithmically curated text, image, audio, and video content to users and automatically generates a detailed log of their consumption history.
-It is a domain-agnostic and platform-independent solution to fit your specific needs.
+It is a domain-agnostic, platform-independent solution that fits your specific needs.
 The platform was designed to accommodate different experiment types through versatility, ease of use, and scalability.
 It features three core components:
 
@@ -25,7 +25,7 @@ Free demo accounts available upon request: <info@informfully.ch>
 
 ## Informfully Preview
 
-![Screenshots](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/informfully_assets/informfully_app_screens.png)
+![Screenshots](https://raw.githubusercontent.com/Informfully/Informfully.github.io/refs/heads/main/docs/img/app_screens.png)
 
 Find out more in the [Online Documentation](https://informfully.readthedocs.io/en/latest/app.html) and create your own instance by deploying the  [Platform Repository](https://github.com/Informfully/Platform).
 
@@ -34,7 +34,7 @@ Find out more in the [Online Documentation](https://informfully.readthedocs.io/e
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 In case you need more information about React Native, the most recent version of this guide is available [on the official GitHub repository](https://github.com/expo/create-react-native-app/blob/master/README.md).
 
-The following installation instructions provide an abbreviated version to help you get set up quickly and ready.
+The following installation instructions provide an abbreviated version to help you get set up quickly.
 You can access the full [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
 
 ### Download the Code
@@ -145,8 +145,9 @@ If you use any code or data from this repository in a scientific publication, we
 
 ## Collaboration
 
-Do you want to use Informfully, but there is no infrastructure available for you to use? Informfully can be used as a hosted service.
-We offer to collaborate with you in your scientific experiments and provide you with access to the research infrastructure.
+Do you want to use Informfully but do not have the necessary infrastructure?
+Informfully can be used as a hosted service.
+We offer to collaborate on your scientific experiments and provide access to our research infrastructure.
 
 Feel free to reach out to us: <info@informfully.ch>
 
@@ -165,4 +166,4 @@ Please post your feature requests and bug reports in our [GitHub issues](https:/
 
 Released under the [MIT License](LICENSE). (Please note that the respective copyright licenses of third-party libraries and dependencies apply.)
 
-![Screenshots](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/app_screens.png)
+![Screenshots](https://raw.githubusercontent.com/Informfully/Informfully.github.io/refs/heads/main/docs/img/footer_screens.png)
