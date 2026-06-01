@@ -153,11 +153,9 @@ Feel free to reach out to us: <info@informfully.ch>
 You are welcome to contribute to the Informfully ecosystem and become a part of our community.
 Feel free to:
 
-* Fork any of the [Informfully repositories](https://github.com/Informfully/Documentation).
+* Fork any of the [Informfully repositories](https://github.com/orgs/Informfully/repositories).
 * Suggest new features in [Future Release](https://github.com/orgs/Informfully/projects/1).
-* Make changes and create pull requests.
-
-Please post your feature requests and bug reports in our [GitHub issues](https://github.com/Informfully/Documentation/issues) section.
+* Join the [Discussion Boards](https://github.com/orgs/Informfully/discussions).
 
 ## License
 
