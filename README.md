@@ -16,15 +16,15 @@ It features three core components:
 
 **Links and Resources:** [GitHub](https://github.com/orgs/Informfully) | [Website](https://informfully.ch) | [X](https://x.com/informfully) | [Documentation](http://informfully.ch/docs) | [DDIS@UZH](https://www.ifi.uzh.ch/en/ddis.html) | [Google Play](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [App Store](https://apps.apple.com/us/app/informfully/id1460234202)
 
-> Note: Our GitHub repositories allow you to run your own instance of Informfully.
-If you would like to use Informfully, a cloud service hosted at the University of Zurich, please contact us.
-Free demo accounts available upon request: <info@informfully.ch>
-
 ## Informfully Preview
 
 ![Screenshots](https://raw.githubusercontent.com/Informfully/Informfully.github.io/refs/heads/main/docs/img/app_screens.png)
 
-Find out more in the [Online Documentation](https://informfully.readthedocs.io/en/latest/app.html) and create your own instance by deploying the  [Platform Repository](https://github.com/Informfully/Platform).
+Find out more in the [Online Documentation](https://informfully.ch/docs/app.html) and create your own instance by deploying the [Platform Repository](https://github.com/Informfully/Platform).
+
+> Note: Our GitHub repositories allow you to run your own instance of Informfully.
+If you would like to use Informfully, a cloud service hosted at the University of Zurich, please contact us.
+Free demo accounts available upon request: <info@informfully.ch>
 
 ## Installation Guide
 
@@ -32,7 +32,7 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 In case you need more information about React Native, the most recent version of this guide is available [on the official GitHub repository](https://github.com/expo/create-react-native-app/blob/master/README.md).
 
 The following installation instructions provide an abbreviated version to help you get set up quickly.
-You can access the full [Platform documentation here](https://informfully.readthedocs.io/en/latest/quick.html).
+You can access the full [Platform documentation](http://informfully.ch/docs).
 
 ### Download the Code
 
@@ -48,7 +48,7 @@ cd backend
 meteor npm install
 ```
 
-After you have downloaded the code, you need to verify the React Native Packager Hostname. We have a small guide for Mac, Linux, and Windows. Find more on [Installation Instructions](https://informfully.readthedocs.io/en/latest/install.html) in the documentation.
+After you have downloaded the code, you need to verify the React Native Packager Hostname. We have a small guide for Mac, Linux, and Windows. Find more on [Installation Instructions](https://informfully.ch/docs/install.html).
 
 ### Run the Code
 
@@ -67,7 +67,7 @@ meteor --port 3008 --settings settings-dev.json
 ```
 
 Make sure that you are specifying the same port for the back end that you are using in the [React Native App](https://github.com/Informfully/Platform/blob/main/frontend/App.js).
-Find more on [Local Development](https://informfully.readthedocs.io/en/latest/development.html) in the documentation.
+Find more on [Local Development](https://informfully.ch/docs/development.html).
 
 ### Deploy the Code
 
@@ -81,7 +81,7 @@ bash build.sh
 ```
 
 Deployment of the front end is done via Google Play for Android and XCode for iOS.
-Find more on [Back End Deployment](https://informfully.readthedocs.io/en/latest/deployment.html) and [Front End Deployment](https://informfully.readthedocs.io/en/latest/native.html) in the documentation.
+Find more on [Back End Deployment](https://informfully.ch/docs/deployment.html) and [Front End Deployment](https://informfully.ch/docs/native.html).
 
 ### Download the App
 
@@ -90,7 +90,7 @@ Reach out to us to get a demo account: <info@informfully.ch>
 
 Android (v5.1 and newer) | iOS (v13.0 and newer) |
 :-: | :-: |
-[![Google Play](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/logo_google.png)](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [![App Store](https://raw.githubusercontent.com/Informfully/Documentation/main/docs/source/img/storefront_assets/logo_apple.png)](https://apps.apple.com/de/app/informfully/id1460234202) |
+[![Google Play](https://raw.githubusercontent.com/Informfully/Informfully.github.io/refs/heads/main/docs/img/storefront_assets/logo_google.png)](https://play.google.com/store/apps/details?id=ch.uzh.ifi.news) | [![App Store](https://raw.githubusercontent.com/Informfully/Informfully.github.io/refs/heads/main/docs/img/storefront_assets/logo_apple.png)](https://apps.apple.com/de/app/informfully/id1460234202) |
 
 ## Citation
 
